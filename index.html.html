@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry-Level IT Roles</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Explore Entry-Level IT Roles</h1>
+        <p>Select a role to view details and see how TechStep can prepare you for success.</p>
+    </header>
+
+    <main class="roles-container">
+        <!-- Role Categories -->
+        <div id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li onclick="filterRoles('Technical Support and Helpdesk')">Technical Support and Helpdesk</li>
+                <li onclick="filterRoles('System and Network Roles')">System and Network Roles</li>
+                <li onclick="filterRoles('Development and Coding')">Development and Coding</li>
+                <li onclick="filterRoles('Data and Analytics')">Data and Analytics</li>
+                <li onclick="filterRoles('Cybersecurity')">Cybersecurity</li>
+                <li onclick="filterRoles('Cloud and IT Operations')">Cloud and IT Operations</li>
+                <li onclick="filterRoles('Specialized Roles')">Specialized Roles</li>
+            </ul>
+        </div>
+
+        <!-- Roles List -->
+        <div id="roles">
+            <h2>Roles</h2>
+            <ul id="roles-list">
+                <!-- Roles will be dynamically loaded here -->
+            </ul>
+        </div>
+
+        <!-- Role Details -->
+        <div id="details">
+            <h2>Role Details</h2>
+            <div id="details-content">
+                <p>Select a role to view more information.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
